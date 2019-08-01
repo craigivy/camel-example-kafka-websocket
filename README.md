@@ -1,12 +1,11 @@
 # Kafka and WebSocket Example
 
 ### Introduction
-The example is demonstrating how to stream kafka to a WebSocket
-and publish results in real time using web socket to a web page.
-
-This example is based on the twitter WebSocket [example](https://github.com/apache/camel/tree/master/examples/camel-example-twitter-websocket) in camel 
+This example demonstrates how to stream kafka messages to a WebSocket in real time and view them in a web page. 
+It is based on the twitter WebSocket [example](https://github.com/apache/camel/tree/master/examples/camel-example-twitter-websocket) in camel. 
 The example has hard coding and is nothing more than a sample.
-- Expects kafka [quickstart](https://kafka.apache.org/quickstart) config.  Including creation of `test` topic
+
+For this example we will use kafka [quickstart](https://kafka.apache.org/quickstart) config.  Including creation of `test` topic
 
 ### Build
 You will need to compile this example first:
