@@ -40,7 +40,7 @@ public class KafkaWebSocketRoute extends RouteBuilder {
         wc.setStaticResources("classpath:.");
 
         // stream kafka events to web socket URL - camel-kafka
-        from("kafka:localhost:9092?brokers=localhost:9092&topic=test")
+        from("kafka:test?brokers=localhost:9092")
             .to("log:kafka")
             .to("websocket:camel-kafka?sendToAll=true");
     }
