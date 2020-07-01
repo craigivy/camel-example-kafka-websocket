@@ -38,7 +38,7 @@
         <arquillian.cube.version>1.17.1</arquillian.cube.version>
         <arquillian.version>1.4.0.Final</arquillian.version>
         <camel.version>2.24.1</camel.version>
-        <log4j2.version>2.11.1</log4j2.version>
+        <log4j2.version>2.13.3</log4j2.version>
     </properties>
     <dependencies>
 
